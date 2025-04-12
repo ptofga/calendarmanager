@@ -83,7 +83,7 @@ def get_schedules_by_date(query_date : str) -> str:
 llm = ChatOpenAI(
     model="deepseek-chat",  # 根据DeepSeek实际模型名称调整
     openai_api_base="https://api.deepseek.com/v1",  # DeepSeek的API地址
-    openai_api_key="sk-0eddaff9dc5d4b43a802cea957aece47",
+    openai_api_key="xxxxxxxxxxxxxxxx",
     temperature=0.3,  # 降低随机性
     max_tokens=500,   # 限制输出长度
     top_p=0.9
